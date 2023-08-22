@@ -6,11 +6,12 @@
   align-items: center;
   text-align: center;
  margin:auto;
+ background-color: #282c34;
  
 }
 
 h1{
-  text-shadow : 3px 3px 0px #222, 5px 5px 0px #378fe5; color : #007ACE; 
+  text-shadow : 3px 3px 0px #9b0139, 5px 5px 0px #5013a4; color : #1490b9; 
   font-size: 45px;
 }
 .App-logo {
@@ -89,7 +90,7 @@ h1{
 }
 
 .input {
-  background-color:#282c34;
+  background-color:whitesmoke;
   color: black;
   padding: 1em 2em;
   border-radius: 0.5em;
