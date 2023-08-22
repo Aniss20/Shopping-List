@@ -1,5 +1,4 @@
 import React from "react";
-import "./Item.css";
 
 const Item = ({ id, items, list, setList, complete}) => {
     const remove = (id) => {
@@ -35,6 +34,7 @@ const Item = ({ id, items, list, setList, complete}) => {
         alt="Delete"
       />
     </div>
+
   );
 };
 export default Item;

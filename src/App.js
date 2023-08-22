@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./App.css"
 import {v4 as uuidv4} from "uuid";
+import "./Item.js"
 
 function App() {
   const [item, setItem] = useState("");
@@ -26,7 +27,7 @@ function App() {
   return(
     <div className= "App">
       <h1>Shopping list</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit = {handleSubmit}>
         <input type = "text" value={item} onChange={handleChange} />
         <button type = "submit">ADD</button>
       </form>
